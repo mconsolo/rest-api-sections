@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  section3app:
+    image: python:3.7.3-slim
+    ports:
+      - "5000:5000"
+    volumes:
+      - "./:/opt/store"
+
+
+# docker-compose up
